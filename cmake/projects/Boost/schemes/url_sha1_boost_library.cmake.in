@@ -58,12 +58,21 @@ endif()
 
 string(COMPARE EQUAL "@CMAKE_CXX_COMPILER_ID@" "Clang" compiler_is_clang)
 
+set(additional_build_flags)
+
+if (NOT "@B2_CXXFLAGS@" STREQUAL "")
+  list(APPEND additional_build_flags "cxxflags=@B2_CXXFLAGS@")
+endif()
+if (NOT "@B2_LDFLAGS@" STREQUAL "")
+  list(APPEND additional_build_flags "linkflags=@B2_LDFLAGS@")
+endif()
+
 set(use_cmake_archiver TRUE)
 if("@ANDROID@")
   set(toolset_name "gcc")
   set(toolset_version "ndk")
 elseif("@APPLE@")
-  set(toolset_name "darwin")
+  set(toolset_name "clang")
   set(toolset_version "")
 
   # Using CMAKE_AR on OSX leads to error (b2 use 'libtool'):
@@ -206,6 +215,7 @@ set(
     ${variants}
     --layout=tagged
     toolset=${toolset_full_name}
+    ${additional_build_flags}
     "--user-config=${boost_user_jam}"
     --with-@HUNTER_PACKAGE_COMPONENT@
 )
@@ -333,7 +343,11 @@ if(CMAKE_HOST_WIN32)
   endif()
 else()
   set(b2_cmd "./b2")
-  set(bootstrap_cmd "./bootstrap.sh")
+  if (compiler_is_clang)
+    set(bootstrap_cmd "./bootstrap.sh" "--with-toolset=clang")
+  else()
+    set(bootstrap_cmd "./bootstrap.sh")
+  endif()
   set(patch_cmd "@CMAKE_COMMAND@" -E echo "Dummy patch command")
 endif()
 

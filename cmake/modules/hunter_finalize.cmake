@@ -178,8 +178,10 @@ macro(hunter_finalize)
 
   string(COMPARE EQUAL "${HUNTER_TLS_VERIFY}" "" _is_empty)
   if(_is_empty)
-    hunter_user_error(
-        "HUNTER_TLS_VERIFY is empty, please update HunterGate module"
-    )
+    set(HUNTER_TLS_VERIFY ON)
+    hunter_status_debug("FIXME: Forcing HUNTER_TLS_VERIFY ON due to a bug where nested HunterGate() calls miss this parameter.")
+    #hunter_user_error(
+    #    "HUNTER_TLS_VERIFY is empty, please update HunterGate module"
+    #)
   endif()
 endmacro()

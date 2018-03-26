@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.0)
+project(Hunter)
+
+include("@HUNTER_SELF@/cmake/Hunter")
+include(hunter_status_debug)
+include(hunter_assert_not_empty_string)
+
+include(ExternalProject)
+
+hunter_status_debug("Scheme: header_only_lib")
+
+hunter_assert_not_empty_string("@HUNTER_SELF@")
+hunter_assert_not_empty_string("@HUNTER_EP_NAME@")
+hunter_assert_not_empty_string("@HUNTER_PACKAGE_URL@")
+hunter_assert_not_empty_string("@HUNTER_PACKAGE_SHA1@")
+hunter_assert_not_empty_string("@HUNTER_PACKAGE_DOWNLOAD_DIR@")
+hunter_assert_not_empty_string("@HUNTER_PACKAGE_SOURCE_DIR@")
+hunter_assert_not_empty_string("@HUNTER_INSTALL_PREFIX@")
+
+set(build_command make "CXX=${CMAKE_CXX_COMPILER}" "CC=${CMAKE_C_COMPILER}")
+
+set(job_count @HUNTER_JOBS_OPTION@)
+string(COMPARE NOTEQUAL "${job_count}" "" have_jobs)
+if(have_jobs)
+  list(APPEND build_command "-j" "${job_count}")
+endif()
+
+ExternalProject_Add(@HUNTER_EP_NAME@
+  URL @HUNTER_PACKAGE_URL@
+  URL_HASH SHA1=@HUNTER_PACKAGE_SHA1@
+  DOWNLOAD_DIR "@HUNTER_PACKAGE_DOWNLOAD_DIR@"
+  SOURCE_DIR "@HUNTER_PACKAGE_SOURCE_DIR@"
+  INSTALL_DIR "@HUNTER_INSTALL_PREFIX@"
+  CONFIGURE_COMMAND ""
+  BUILD_COMMAND ${build_command}
+  BUILD_IN_SOURCE 1
+  INSTALL_COMMAND make install PREFIX="@HUNTER_INSTALL_PREFIX@"
+  )

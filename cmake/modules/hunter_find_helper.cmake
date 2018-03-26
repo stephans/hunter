@@ -30,10 +30,7 @@ function(hunter_find_helper)
     hunter_internal_error(FATAL_ERROR "Unparsed arguments: ${x_UNPARSED_ARGUMENTS}")
   endif()
 
-  string(COMPARE EQUAL "${x_LIBRARY}" "" is_empty)
-  if(is_empty)
-    hunter_internal_error("No LIBRARY")
-  endif()
+  string(COMPARE EQUAL "${x_LIBRARY}" "" library_is_empty)
 
   string(COMPARE EQUAL "${x_HEADER}" "" is_empty)
   if(is_empty)
@@ -78,18 +75,24 @@ function(hunter_find_helper)
     return()
   endif()
 
-  add_library("${target_name}" UNKNOWN IMPORTED)
+  if (library_is_empty)
+    add_library("${target_name}" INTERFACE IMPORTED)
+  else()
+    add_library("${target_name}" UNKNOWN IMPORTED)
+  endif()
 
   unset(_hunter_library CACHE)
   unset(_hunter_header CACHE)
 
-  find_library(_hunter_library "${x_LIBRARY}")
+  if (NOT library_is_empty)
+    find_library(_hunter_library "${x_LIBRARY}")
+  endif()
   find_path(_hunter_header "${x_HEADER}")
 
   set(wiki "https://github.com/ruslo/hunter/wiki/pkg.${package_name}")
   set(details "See ${wiki} for details.")
 
-  if(NOT _hunter_library)
+  if(NOT library_is_empty AND NOT _hunter_library)
     hunter_user_error("Library '${x_LIBRARY}' not found in system. ${details}")
   endif()
 
@@ -101,13 +104,21 @@ function(hunter_find_helper)
   hunter_status_debug("* library: '${_hunter_library}'")
   hunter_status_debug("* header: '${_hunter_header}'")
 
-  set_target_properties(
-      "${target_name}"
-      PROPERTIES
-      IMPORTED_LINK_INTERFACE_LANGUAGE "CXX"
-      IMPORTED_LOCATION "${_hunter_library}"
-      INTERFACE_INCLUDE_DIRECTORIES "${_hunter_header}"
-  )
+  if (NOT library_is_empty)
+      set_target_properties(
+          "${target_name}"
+          PROPERTIES
+          IMPORTED_LINK_INTERFACE_LANGUAGE "CXX"
+          IMPORTED_LOCATION "${_hunter_library}"
+          INTERFACE_INCLUDE_DIRECTORIES "${_hunter_header}"
+      )
+  else()
+      set_target_properties(
+          "${target_name}"
+          PROPERTIES
+          INTERFACE_INCLUDE_DIRECTORIES "${_hunter_header}"
+      )
+  endif()
 
   unset(_hunter_library CACHE)
   unset(_hunter_header CACHE)

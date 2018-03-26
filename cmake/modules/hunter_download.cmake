@@ -487,19 +487,26 @@ function(hunter_download)
 
   set(
       download_scheme
-      "${HUNTER_PACKAGE_SETUP_DIR}/schemes/${HUNTER_DOWNLOAD_SCHEME}.cmake.in"
+      "${HUNTER_GATE_PRIVATE_PACKAGES}/../schemes/${HUNTER_DOWNLOAD_SCHEME}.cmake.in"
   )
   set(_hunter_schemes_search_dirs "${_hunter_schemes_search_dirs}, ${download_scheme}")
+  if (NOT EXISTS "${download_scheme}")
+      set(
+          download_scheme
+          "${HUNTER_PACKAGE_SETUP_DIR}/schemes/${HUNTER_DOWNLOAD_SCHEME}.cmake.in"
+      )
+      set(_hunter_schemes_search_dirs "${_hunter_schemes_search_dirs}, ${download_scheme}")
 
-  if(NOT EXISTS "${download_scheme}")
-    set(
-      download_scheme
-      "${HUNTER_SELF}/cmake/schemes/${HUNTER_DOWNLOAD_SCHEME}.cmake.in"
-    )
-    set(_hunter_schemes_search_dirs "${_hunter_schemes_search_dirs}, ${download_scheme}")
-    if(NOT EXISTS "${download_scheme}")
-      hunter_internal_error("Download scheme `${download_scheme}` not found. Search locations: ${_hunter_schemes_search_dirs}")
-    endif()
+      if(NOT EXISTS "${download_scheme}")
+        set(
+          download_scheme
+          "${HUNTER_SELF}/cmake/schemes/${HUNTER_DOWNLOAD_SCHEME}.cmake.in"
+        )
+        set(_hunter_schemes_search_dirs "${_hunter_schemes_search_dirs}, ${download_scheme}")
+        if(NOT EXISTS "${download_scheme}")
+          hunter_internal_error("Download scheme `${download_scheme}` not found. Search locations: ${_hunter_schemes_search_dirs}")
+        endif()
+      endif()
   endif()
 
   hunter_status_debug(
