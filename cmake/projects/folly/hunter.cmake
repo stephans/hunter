@@ -39,6 +39,13 @@ hunter_add_version(
   SHA1 7e852c190c627691de3ba76b90fb6ac9f5343fbc
 )
 
+hunter_add_version(
+  PACKAGE_NAME folly
+  VERSION "2018.04.20.03"
+  URL "https://github.com/ambroff/folly/archive/9d4fe9756a4609e9a09825b4823311995b406309.zip"
+  SHA1 47b4e170766028d2e1e4515e430e89cc29dbc07e
+)
+
 if (APPLE)
   hunter_cmake_args(folly CMAKE_ARGS FOLLY_USE_LIBCPP=TRUE)
 endif()
