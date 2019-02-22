@@ -36,6 +36,13 @@ include(hunter_get_toolchain_binaries)
 include(hunter_internal_error)
 include(hunter_status_debug)
 
+# On macOS 10.14 Mojave or later we have to specify the SDK
+# version, otherwise system headers will not be found.
+if (APPLE)
+  include(hunter_configure_macos_sdk)
+  hunter_configure_macos_sdk()
+endif()
+
 function(hunter_autotools_configure_command out_command_line)
   set(optional_params)
   set(one_value_params
@@ -157,6 +164,11 @@ function(hunter_autotools_configure_command out_command_line)
 
   if(toolchain_binaries)
     list(APPEND configure_command ${toolchain_binaries})
+  endif()
+
+  if (APPLE)
+    list(APPEND configure_command "MACOSX_DEPLOYMENT_TARGET=$ENV{MACOSX_DEPLOYMENT_TARGET}")
+    list(APPEND configure_command "SDKROOT=$ENV{SDKROOT}")
   endif()
 
   list(LENGTH PARAM_PACKAGE_CONFIGURATION_TYPES len)

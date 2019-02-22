@@ -64,6 +64,13 @@ include(hunter_user_error)
 include(hunter_status_debug)
 include(hunter_assert_not_empty_string)
 
+# On macOS 10.14 Mojave or later we have to specify the SDK
+# version, otherwise system headers will not be found.
+if (APPLE)
+  include(hunter_configure_macos_sdk)
+  hunter_configure_macos_sdk()
+endif()
+
 # Packages to test this function:
 # * xau
 # * gstreamer
@@ -136,6 +143,12 @@ function(hunter_autotools_project target_name)
 
   # Build command and options
   set(autotools_build_command "make")
+
+  if (APPLE)
+    list(APPEND autotools_build_command "MACOSX_DEPLOYMENT_TARGET=$ENV{MACOSX_DEPLOYMENT_TARGET}")
+    list(APPEND autotools_build_command "SDKROOT=$ENV{SDKROOT}")
+  endif()
+
   string(COMPARE NOTEQUAL "${PARAM_PARALLEL_JOBS}" "" have_jobs)
   if(have_jobs)
     list(APPEND autotools_build_command "-j" "${PARAM_PARALLEL_JOBS}")

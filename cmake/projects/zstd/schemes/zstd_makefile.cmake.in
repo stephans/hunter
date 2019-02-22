@@ -17,7 +17,17 @@ hunter_assert_not_empty_string("@HUNTER_PACKAGE_DOWNLOAD_DIR@")
 hunter_assert_not_empty_string("@HUNTER_PACKAGE_SOURCE_DIR@")
 hunter_assert_not_empty_string("@HUNTER_INSTALL_PREFIX@")
 
-set(build_command make "CXX=${CMAKE_CXX_COMPILER}" "CC=${CMAKE_C_COMPILER}")
+# On macOS 10.14 Mojave or later we have to specify the SDK
+# version, otherwise system headers will not be found.
+if (APPLE)
+  include(hunter_configure_macos_sdk)
+  hunter_configure_macos_sdk()
+
+  set(build_command make "CXX=${CMAKE_CXX_COMPILER}" "CC=${CMAKE_C_COMPILER}" "SDKROOT=$ENV{SDKROOT}" "MACOSX_DEPLOYMENT_TARGET=$ENV{MACOSX_DEPLOYMENT_TARGET}")
+else()
+  set(build_command make "CXX=${CMAKE_CXX_COMPILER}" "CC=${CMAKE_C_COMPILER}")
+endif()
+
 
 set(job_count @HUNTER_JOBS_OPTION@)
 string(COMPARE NOTEQUAL "${job_count}" "" have_jobs)
