@@ -31,6 +31,12 @@ hunter_add_version(
 
 hunter_add_version(
     PACKAGE_NAME gRPC
+    VERSION "1.10.0-p1"
+    URL "https://github.com/ambroff/grpc/archive/hunter-1.10.0-p1.zip"
+    SHA1 "95d1273e0b204de781ef2519c306ccea28b90b01")
+
+hunter_add_version(
+    PACKAGE_NAME gRPC
     VERSION "1.12.1-p0"
     URL "https://github.com/hunter-packages/grpc/archive/v1.12.1-p0.tar.gz"
     SHA1 "cee253f1a9075afe7eb8061a2783f50368ff3495")
