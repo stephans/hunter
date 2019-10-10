@@ -81,7 +81,7 @@ if(APPLE)
       . "@HUNTER_GLOBAL_SCRIPT_DIR@/clear-all.sh" && ${bootstrap_cmd}
   )
 elseif(compiler_is_clang AND NOT CMAKE_CROSSCOMPILING)
-  list(APPEND bootstrap_cmd "--with-toolset=clang")
+  list(APPEND bootstrap_cmd "--with-toolset=${CMAKE_C_COMPILER}")
 endif()
 
 if("@HUNTER_PACKAGE_LOG_BUILD@")
