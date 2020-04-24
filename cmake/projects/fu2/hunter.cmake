@@ -26,11 +26,10 @@ hunter_add_version(
   VERSION
   "4.1.0.1"
   URL
-  "https://github.com/ambroff/function2/archive/4.1.0_hunter.tar.gz"
+  "https://github.com/ambroff/function2/archive/4.1.0_hunter1.tar.gz"
   SHA1
-  c64d18ded7ffa9cd58ee811a9dd97f598b6e5001
+  194c60569e8376c1d5d1d692b2447288c60f76bf
   )
-
 
 hunter_cmake_args(fu2 CMAKE_ARGS FU2_WITH_CPP_LATEST=ON FU2_ENABLE_TESTS=OFF)
 
