@@ -28,7 +28,7 @@ hunter_add_version(
   URL
   "https://github.com/ambroff/function2/archive/4.1.0_hunter.tar.gz"
   SHA1
-  e9d871aaebf96ec63eb7d2a5299cfc44f13d76fc
+  c64d18ded7ffa9cd58ee811a9dd97f598b6e5001
   )
 
 
