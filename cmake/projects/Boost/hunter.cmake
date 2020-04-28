@@ -149,6 +149,17 @@ hunter_add_version(
 )
 
 hunter_add_version(
+  PACKAGE_NAME
+  Boost
+  VERSION
+  "1.70.0-p1"
+  URL
+  "https://github.com/ambroff/boost/archive/v1.70.0-p1.tar.gz"
+  SHA1
+  f11a76ec60417f90c9e305d2dda78455bd415af7
+  )
+
+hunter_add_version(
     PACKAGE_NAME
     Boost
     VERSION
