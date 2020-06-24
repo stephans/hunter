@@ -47,6 +47,13 @@ hunter_add_version(
     URL "https://github.com/hunter-packages/grpc/archive/v1.17.2-p0.tar.gz"
     SHA1 "7eb5711cc4fbc7a33563121b1a6921eac0a863ef")
 
+hunter_add_version(
+    PACKAGE_NAME gRPC
+    VERSION "1.30.0-li0"
+    URL "https://github.com/ambroff/grpc/archive/hunter-v1.30.0-li0.tar.gz"
+    SHA1 "21eb3e94f741b43c0f983bf48a6aa2f419fa6a1f"
+    )
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(gRPC)
 hunter_download(PACKAGE_NAME gRPC)

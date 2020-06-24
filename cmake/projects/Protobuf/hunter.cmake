@@ -166,9 +166,9 @@ hunter_add_version(
     VERSION
     "3.12.3-li0"
     URL
-    "https://github.com/ambroff/protobuf/archive/hunter-v3.12.3-li0.tar.gz"
+    "https://github.com/ambroff/protobuf/archive/hunter-v3.12.3-li0.zip"
     SHA1
-    88938a054cdf6b60f4d969f12a135ae1345a4ab1
+    b0dfa0f8c8bc07eaee1d43b2ff0c9a23f297f070
     )
 
 string(
