@@ -41,6 +41,13 @@ hunter_add_version(
   SHA1 f108fc14fc73ca0cba8ad93dfe544efaf539f18b
   )
 
+hunter_add_version(
+  PACKAGE_NAME braft
+  VERSION 2020.07.31.2
+  URL "https://github.com/ambroff/braft/archive/hunter_2020.07.31.2.zip"
+  SHA1 70c929cfa421fc1fc2738b403d0867ee210959bf
+  )
+
 hunter_cmake_args(
   braft
   CMAKE_ARGS
