@@ -1,0 +1,2039 @@
+[
+    {
+        "id": 3419218757,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4NzU3",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218757",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218757",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:17Z",
+        "completed_at": "2021-08-25T07:14:40Z",
+        "name": "jemalloc analyze-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:17.000Z",
+                "completed_at": "2021-08-25T07:14:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218757"
+    },
+    {
+        "id": 3419218728,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4NzI4",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218728",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218728",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:17Z",
+        "completed_at": "2021-08-25T07:15:30Z",
+        "name": "jemalloc android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:17.000Z",
+                "completed_at": "2021-08-25T07:14:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:15:30.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:15:30.000Z",
+                "completed_at": "2021-08-25T07:15:30.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:30.000Z",
+                "completed_at": "2021-08-25T07:15:30.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:30.000Z",
+                "completed_at": "2021-08-25T07:15:30.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218728"
+    },
+    {
+        "id": 3419218583,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4NTgz",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218583",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218583",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:17Z",
+        "completed_at": "2021-08-25T07:14:39Z",
+        "name": "jemalloc clang-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:17.000Z",
+                "completed_at": "2021-08-25T07:14:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:39.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:39.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:39.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218583"
+    },
+    {
+        "id": 3419218632,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4NjMy",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218632",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218632",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:17Z",
+        "completed_at": "2021-08-25T07:14:56Z",
+        "name": "jemalloc gcc-7-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:17.000Z",
+                "completed_at": "2021-08-25T07:14:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:56.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:56.000Z",
+                "completed_at": "2021-08-25T07:14:56.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:56.000Z",
+                "completed_at": "2021-08-25T07:14:56.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:56.000Z",
+                "completed_at": "2021-08-25T07:14:56.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218632"
+    },
+    {
+        "id": 3419218674,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4Njc0",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218674",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218674",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:20Z",
+        "completed_at": "2021-08-25T07:15:18Z",
+        "name": "jemalloc gcc-8-cxx17-fpic ubuntu-18.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:15:18.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:15:18.000Z",
+                "completed_at": "2021-08-25T07:15:18.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:18.000Z",
+                "completed_at": "2021-08-25T07:15:18.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:18.000Z",
+                "completed_at": "2021-08-25T07:15:18.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218674"
+    },
+    {
+        "id": 3419218698,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4Njk4",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218698",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218698",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:20Z",
+        "completed_at": "2021-08-25T07:14:57Z",
+        "name": "jemalloc gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:28.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:28.000Z",
+                "completed_at": "2021-08-25T07:14:28.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:28.000Z",
+                "completed_at": "2021-08-25T07:14:28.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:28.000Z",
+                "completed_at": "2021-08-25T07:14:28.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:28.000Z",
+                "completed_at": "2021-08-25T07:14:28.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:28.000Z",
+                "completed_at": "2021-08-25T07:14:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:57.000Z",
+                "completed_at": "2021-08-25T07:14:57.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:57.000Z",
+                "completed_at": "2021-08-25T07:14:57.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:57.000Z",
+                "completed_at": "2021-08-25T07:14:57.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218698"
+    },
+    {
+        "id": 3419218955,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4OTU1",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218955",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218955",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:31Z",
+        "completed_at": "2021-08-25T07:16:56Z",
+        "name": "jemalloc ios-nocodesign-13-2-dep-9-3 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:15:02.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:15:02.000Z",
+                "completed_at": "2021-08-25T07:16:28.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:16:28.000Z",
+                "completed_at": "2021-08-25T07:16:28.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:16:28.000Z",
+                "completed_at": "2021-08-25T07:16:28.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:16:28.000Z",
+                "completed_at": "2021-08-25T07:16:28.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:16:28.000Z",
+                "completed_at": "2021-08-25T07:16:28.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:16:28.000Z",
+                "completed_at": "2021-08-25T07:16:54.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:16:54.000Z",
+                "completed_at": "2021-08-25T07:16:54.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:16:54.000Z",
+                "completed_at": "2021-08-25T07:16:54.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:16:54.000Z",
+                "completed_at": "2021-08-25T07:16:56.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218955"
+    },
+    {
+        "id": 3419219139,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MTM5",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219139",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219139",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:17Z",
+        "completed_at": "2021-08-25T07:15:28Z",
+        "name": "jemalloc mingw-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:17.000Z",
+                "completed_at": "2021-08-25T07:14:18.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:18.000Z",
+                "completed_at": "2021-08-25T07:14:44.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:44.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:15:19.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:19.000Z",
+                "completed_at": "2021-08-25T07:15:28.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:28.000Z",
+                "completed_at": "2021-08-25T07:15:28.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219139"
+    },
+    {
+        "id": 3419219158,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MTU4",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219158",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219158",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:19Z",
+        "completed_at": "2021-08-25T07:15:29Z",
+        "name": "jemalloc msys-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:21.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:15:20.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:20.000Z",
+                "completed_at": "2021-08-25T07:15:29.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:29.000Z",
+                "completed_at": "2021-08-25T07:15:29.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219158"
+    },
+    {
+        "id": 3419218990,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4OTkw",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218990",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218990",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:18Z",
+        "completed_at": "2021-08-25T07:15:36Z",
+        "name": "jemalloc ninja-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:18.000Z",
+                "completed_at": "2021-08-25T07:14:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:15:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:26.000Z",
+                "completed_at": "2021-08-25T07:15:36.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:36.000Z",
+                "completed_at": "2021-08-25T07:15:36.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218990"
+    },
+    {
+        "id": 3419219027,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MDI3",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219027",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219027",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:19Z",
+        "completed_at": "2021-08-25T07:15:35Z",
+        "name": "jemalloc nmake-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:41.000Z",
+                "completed_at": "2021-08-25T07:14:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:41.000Z",
+                "completed_at": "2021-08-25T07:14:42.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:42.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:15:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:26.000Z",
+                "completed_at": "2021-08-25T07:15:35.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:35.000Z",
+                "completed_at": "2021-08-25T07:15:35.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219027"
+    },
+    {
+        "id": 3419218891,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4ODkx",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218891",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218891",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:22Z",
+        "completed_at": "2021-08-25T07:14:46Z",
+        "name": "jemalloc osx-10-13-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:31.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:14:31.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:14:31.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:14:31.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:14:31.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:31.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:46.000Z",
+                "completed_at": "2021-08-25T07:14:46.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218891"
+    },
+    {
+        "id": 3419218861,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4ODYx",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218861",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218861",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:25Z",
+        "completed_at": "2021-08-25T07:14:49Z",
+        "name": "jemalloc osx-10-13-make-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:34.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:34.000Z",
+                "completed_at": "2021-08-25T07:14:34.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:34.000Z",
+                "completed_at": "2021-08-25T07:14:34.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:34.000Z",
+                "completed_at": "2021-08-25T07:14:34.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:34.000Z",
+                "completed_at": "2021-08-25T07:14:34.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:34.000Z",
+                "completed_at": "2021-08-25T07:14:48.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:48.000Z",
+                "completed_at": "2021-08-25T07:14:48.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:48.000Z",
+                "completed_at": "2021-08-25T07:14:48.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:48.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218861"
+    },
+    {
+        "id": 3419218920,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4OTIw",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218920",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218920",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:33Z",
+        "completed_at": "2021-08-25T07:18:02Z",
+        "name": "jemalloc osx-10-15-dep-10-10-cxx17 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:33.000Z",
+                "completed_at": "2021-08-25T07:14:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:51.000Z",
+                "completed_at": "2021-08-25T07:16:16.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:16:16.000Z",
+                "completed_at": "2021-08-25T07:16:17.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:16:17.000Z",
+                "completed_at": "2021-08-25T07:16:18.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:16:18.000Z",
+                "completed_at": "2021-08-25T07:16:18.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:16:18.000Z",
+                "completed_at": "2021-08-25T07:16:18.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:16:18.000Z",
+                "completed_at": "2021-08-25T07:18:01.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:18:01.000Z",
+                "completed_at": "2021-08-25T07:18:01.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:18:01.000Z",
+                "completed_at": "2021-08-25T07:18:02.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:18:02.000Z",
+                "completed_at": "2021-08-25T07:18:02.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218920"
+    },
+    {
+        "id": 3419218940,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4OTQw",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218940",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218940",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:23Z",
+        "completed_at": "2021-08-25T07:14:51Z",
+        "name": "jemalloc osx-11-0-arch-universal2 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:23.000Z",
+                "completed_at": "2021-08-25T07:14:26.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:26.000Z",
+                "completed_at": "2021-08-25T07:14:32.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:32.000Z",
+                "completed_at": "2021-08-25T07:14:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:32.000Z",
+                "completed_at": "2021-08-25T07:14:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:32.000Z",
+                "completed_at": "2021-08-25T07:14:32.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:32.000Z",
+                "completed_at": "2021-08-25T07:14:32.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:32.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:14:50.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:50.000Z",
+                "completed_at": "2021-08-25T07:14:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218940"
+    },
+    {
+        "id": 3419218796,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4Nzk2",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218796",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218796",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:19Z",
+        "completed_at": "2021-08-25T07:14:39Z",
+        "name": "jemalloc sanitize-address-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:38.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:38.000Z",
+                "completed_at": "2021-08-25T07:14:38.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:38.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:39.000Z",
+                "completed_at": "2021-08-25T07:14:39.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218796"
+    },
+    {
+        "id": 3419218812,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4ODEy",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218812",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218812",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:22Z",
+        "completed_at": "2021-08-25T07:14:43Z",
+        "name": "jemalloc sanitize-leak-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:24.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:24.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:27.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:27.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218812"
+    },
+    {
+        "id": 3419218840,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE4ODQw",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419218840",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419218840",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:20Z",
+        "completed_at": "2021-08-25T07:14:40Z",
+        "name": "jemalloc sanitize-thread-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:20.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:25.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:14:40.000Z",
+                "completed_at": "2021-08-25T07:14:40.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419218840"
+    },
+    {
+        "id": 3419219104,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MTA0",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219104",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219104",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:19Z",
+        "completed_at": "2021-08-25T07:15:29Z",
+        "name": "jemalloc vs-14-2015-sdk-8-1 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:19.000Z",
+                "completed_at": "2021-08-25T07:14:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:21.000Z",
+                "completed_at": "2021-08-25T07:14:42.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:42.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:43.000Z",
+                "completed_at": "2021-08-25T07:14:44.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:44.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:14:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:45.000Z",
+                "completed_at": "2021-08-25T07:15:19.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:19.000Z",
+                "completed_at": "2021-08-25T07:15:29.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:29.000Z",
+                "completed_at": "2021-08-25T07:15:29.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219104"
+    },
+    {
+        "id": 3419219080,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MDgw",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219080",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219080",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:49Z",
+        "completed_at": "2021-08-25T07:15:46Z",
+        "name": "jemalloc vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:14:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:51.000Z",
+                "completed_at": "2021-08-25T07:15:10.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:15:10.000Z",
+                "completed_at": "2021-08-25T07:15:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:15:11.000Z",
+                "completed_at": "2021-08-25T07:15:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:15:11.000Z",
+                "completed_at": "2021-08-25T07:15:12.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:15:12.000Z",
+                "completed_at": "2021-08-25T07:15:12.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:15:12.000Z",
+                "completed_at": "2021-08-25T07:15:12.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:15:12.000Z",
+                "completed_at": "2021-08-25T07:15:37.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:37.000Z",
+                "completed_at": "2021-08-25T07:15:46.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:46.000Z",
+                "completed_at": "2021-08-25T07:15:46.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219080"
+    },
+    {
+        "id": 3419219046,
+        "run_id": 1165554652,
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/1165554652",
+        "node_id": "MDg6Q2hlY2tSdW4zNDE5MjE5MDQ2",
+        "head_sha": "557dd04439411933ebafe3560ee9cbfb59b4a5a2",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/3419219046",
+        "html_url": "https://github.com/ambroff/hunter/runs/3419219046",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-08-25T07:14:20Z",
+        "completed_at": "2021-08-25T07:15:27Z",
+        "name": "jemalloc vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-08-25T07:14:21.000Z",
+                "completed_at": "2021-08-25T07:14:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-08-25T07:14:22.000Z",
+                "completed_at": "2021-08-25T07:14:47.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-08-25T07:14:47.000Z",
+                "completed_at": "2021-08-25T07:14:47.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-08-25T07:14:47.000Z",
+                "completed_at": "2021-08-25T07:14:47.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-08-25T07:14:47.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:14:49.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-08-25T07:14:49.000Z",
+                "completed_at": "2021-08-25T07:15:16.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-08-25T07:15:16.000Z",
+                "completed_at": "2021-08-25T07:15:27.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-08-25T07:15:27.000Z",
+                "completed_at": "2021-08-25T07:15:27.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/3419219046"
+    }
+]
