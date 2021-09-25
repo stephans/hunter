@@ -50,6 +50,13 @@ hunter_add_version(
     )
 
 hunter_add_version(
+  PACKAGE_NAME flatbuffers
+  VERSION 1.10.0.li2
+  URL "https://github.com/ambroff/flatbuffers/archive/v1.10.0.li2.zip"
+  SHA1 69defd1da792d92529c0268a18a71fab61e6d702
+  )
+
+hunter_add_version(
     PACKAGE_NAME
     flatbuffers
     VERSION
