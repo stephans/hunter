@@ -98,17 +98,6 @@ hunter_add_version(
     PACKAGE_NAME
     Protobuf
     VERSION
-    "3.5.2-p1"
-    URL
-    "https://github.com/ambroff/protobuf/archive/hunter-3.5.2_p1_ambroff.zip"
-    SHA1
-    7945395b3844bb9edba93b9425a669a7b5312639
-)
-
-hunter_add_version(
-    PACKAGE_NAME
-    Protobuf
-    VERSION
     "3.6.1.3-p0"
     URL
     "https://github.com/hunter-packages/protobuf/archive/v3.6.1.3-p0.tar.gz"
@@ -180,6 +169,17 @@ hunter_add_version(
     "https://github.com/cpp-pm/protobuf/archive/v3.14.0-4a09d77-p0.tar.gz"
     SHA1
     3553ff3bfd7d0c4c1413b1552064b3dca6fa213e
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "3.19.4-p0"
+    URL
+    "https://github.com/cpp-pm/protobuf/archive/refs/tags/v3.19.4-p0.tar.gz"
+    SHA1
+    e5b797dbc4e6ad92d0924ae86c130be4354c35b6
 )
 
 string(
