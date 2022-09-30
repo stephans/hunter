@@ -4,6 +4,10 @@
 
 cmake_minimum_required(VERSION 3.0)
 
+if (POLICY CMP0074)
+  cmake_policy(SET CMP0074 NEW)
+endif()
+
 # for iostreams dependency on ZLIB and BZIP2
 include(hunter_add_package)
 include("${CMAKE_CURRENT_LIST_DIR}/../Hunter")
