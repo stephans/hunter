@@ -67,6 +67,12 @@ hunter_add_version(
   URL "https://github.com/stephans/brpc/archive/refs/heads/2023.01.21.0.zip"
   SHA1 "1d6702ca8b8132f193026d73c2ec4d5272cfdae3"
 )
+hunter_add_version(
+  PACKAGE_NAME brpc
+  VERSION 2023.01.21.1
+  URL "https://github.com/stephans/brpc/archive/refs/tags/2023.01.21.1.zip"
+  SHA1 "acf8567084cf2000b1c01deeeb2f6738176fa75e"
+)
 hunter_cmake_args(
   brpc
   CMAKE_ARGS
