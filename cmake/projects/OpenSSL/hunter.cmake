@@ -661,6 +661,17 @@ hunter_add_version(
 )
 
 hunter_add_version(
+  PACKAGE_NAME
+  OpenSSL
+  VERSION
+  "3.1.2"
+  URL
+  "https://github.com/openssl/openssl/archive/openssl-3.1.2.tar.gz"
+  SHA1
+  6a3958748929864eb35b51f3167a1a1414cd0ddb
+  )
+
+hunter_add_version(
     PACKAGE_NAME
     OpenSSL
     VERSION
