@@ -656,7 +656,6 @@ hunter_add_version(
     34ea65451f7fc4625f31ba50f89b3fbea12f13f3
 )
 
-# 3.0 series (LTS)
 hunter_add_version(
   PACKAGE_NAME
   OpenSSL
