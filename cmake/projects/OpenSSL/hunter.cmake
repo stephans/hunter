@@ -232,6 +232,17 @@ hunter_add_version(
 )
 
 hunter_add_version(
+  PACKAGE_NAME
+  OpenSSL
+  VERSION
+  "1.1.1v"
+  URL
+  "https://www.openssl.org/source/openssl-1.1.1v.tar.gz"
+  SHA1
+  3ec7b37aefcbcd8d4bd9b2f3687dd77948d46382
+  )
+
+hunter_add_version(
     PACKAGE_NAME
     OpenSSL
     VERSION
