@@ -31,6 +31,17 @@ hunter_add_version(
   194c60569e8376c1d5d1d692b2447288c60f76bf
   )
 
+hunter_add_versions(
+  PACKAGE_NAME
+  fu2
+  VERSION
+  "4.2.3"
+  URL
+  "https://github.com/Naios/function2/archive/refs/tags/4.2.3.tar.gz"
+  SHA1
+  3a14413b58baf38a47bc46ce7c76ce04cfbcf667
+  )
+
 hunter_cmake_args(fu2 CMAKE_ARGS FU2_WITH_CPP_LATEST=ON FU2_ENABLE_TESTS=OFF)
 
 # Pick a download scheme
