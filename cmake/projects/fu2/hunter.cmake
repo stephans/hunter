@@ -31,7 +31,7 @@ hunter_add_version(
   194c60569e8376c1d5d1d692b2447288c60f76bf
   )
 
-hunter_add_versions(
+hunter_add_version(
   PACKAGE_NAME
   fu2
   VERSION
