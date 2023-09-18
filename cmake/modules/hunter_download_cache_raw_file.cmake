@@ -96,7 +96,7 @@ function(hunter_download_cache_raw_file)
       if(NOT is_github)
         set(url "${server}/raw/${suffix}")
       else()
-        string(SUBSTRING "${suffix}" 0 7 cache_tag)
+        string(SUBSTRING "${suffix}" 0 9 cache_tag)
         set(url "${server}/releases/download/cache-${cache_tag}/${suffix}")
       endif()
 

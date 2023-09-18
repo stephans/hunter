@@ -12,7 +12,7 @@ function(hunter_calculate_self root version sha1 result)
   hunter_assert_not_empty_string("${sha1}")
   hunter_assert_not_empty_string("${result}")
 
-  string(SUBSTRING "${sha1}" 0 7 archive_id)
+  string(SUBSTRING "${sha1}" 0 9 archive_id)
 
   if(EXISTS "${root}/cmake/Hunter")
     set(hunter_self "${root}")

@@ -63,7 +63,7 @@ function(hunter_download_server_url)
   set(hunter_url_list) # list of URLs to try downloading from
 
   # extract archive-ID from archive SHA1
-  string(SUBSTRING "${x_SHA1}" 0 7 archive_id)
+  string(SUBSTRING "${x_SHA1}" 0 9 archive_id)
 
   # get filename from download URL
   get_filename_component(package_filename_raw "${x_URL}" NAME)

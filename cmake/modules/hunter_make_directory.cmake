@@ -12,7 +12,7 @@ function(hunter_make_directory parent sha1 result)
   hunter_assert_not_empty_string("${sha1}")
   hunter_assert_not_empty_string("${result}")
 
-  string(SUBSTRING "${sha1}" 0 7 dir_id)
+  string(SUBSTRING "${sha1}" 0 9 dir_id)
 
   set(dir_path "${parent}/${dir_id}")
   set(done_path "${dir_path}/DONE")

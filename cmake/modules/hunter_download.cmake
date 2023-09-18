@@ -195,7 +195,7 @@ function(hunter_download)
   endif()
 
   if(HUNTER_PACKAGE_SCHEME_UNPACK)
-    string(SUBSTRING "${HUNTER_PACKAGE_SHA1}" 0 7 x)
+    string(SUBSTRING "${HUNTER_PACKAGE_SHA1}" 0 9 x)
     set(hunter_lock_sources TRUE)
     set(
         hunter_lock_sources_dir
