@@ -13,6 +13,17 @@ hunter_add_version(
     PACKAGE_NAME
     rocksdb
     VERSION
+    8.10.0
+    URL
+    "https://github.com/facebook/rocksdb/archive/refs/tags/v8.10.0.tar.gz"
+    SHA1
+    bf387f23287493c738d2b796b4adbd391255c03d
+    )
+
+hunter_add_version(
+    PACKAGE_NAME
+    rocksdb
+    VERSION
     5.7.2
     URL
     "https://github.com/facebook/rocksdb/archive/v5.7.2.tar.gz"
