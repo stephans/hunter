@@ -673,7 +673,7 @@ hunter_add_version(
   VERSION
   "3.2.1"
   URL
-  "https://github.com/openssl/openssl/archive/openssl-3.1.2.tar.gz"
+  "https://github.com/openssl/openssl/archive/openssl-3.2.1.tar.gz"
   SHA1
   94123e793bc57c06a8bc5cc72a74993a66e21e13
   )
