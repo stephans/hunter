@@ -200,9 +200,9 @@ hunter_add_version(
     VERSION
     "3.19.4-p1"
     URL
-    "https://github.com/stephans/cpp-pm-protobuf/archive/refs/heads/hunter-3.19.4.tar.gz"
+    "https://github.com/stephans/cpp-pm-protobuf/archive/refs/tags/3.19.4-p1.tar.gz"
     SHA1
-    2e0277ee1cbddfb565772be46ce79009cc1f238c
+    40e378d024928efa190e3fd59f66dc6510f79ea6
 )
 
 
