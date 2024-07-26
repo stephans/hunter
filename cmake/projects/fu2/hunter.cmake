@@ -19,7 +19,6 @@ hunter_add_version(
   e9d871aaebf96ec63eb7d2a5299cfc44f13d76fc
   )
 
-# List of versions here...
 hunter_add_version(
   PACKAGE_NAME
   fu2
@@ -29,6 +28,17 @@ hunter_add_version(
   "https://github.com/ambroff/function2/archive/4.1.0_hunter1.tar.gz"
   SHA1
   194c60569e8376c1d5d1d692b2447288c60f76bf
+  )
+
+hunter_add_version(
+  PACKAGE_NAME
+  fu2
+  VERSION
+  "4.2.4"
+  URL
+  "https://github.com/Naios/function2/archive/refs/tags/4.2.4.tar.gz"
+  SHA1
+  d2d9ef10c4afef90924f040ab2c0279f00775d44
   )
 
 hunter_cmake_args(fu2 CMAKE_ARGS FU2_WITH_CPP_LATEST=ON FU2_ENABLE_TESTS=OFF)
