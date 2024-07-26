@@ -789,6 +789,16 @@ hunter_add_version(
     24c5d4308e0f901326f15c274c8c736117966499
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    3.3.1
+    URL
+    "https://github.com/openssl/openssl/releases/download/openssl-3.3.1/openssl-3.3.1.tar.gz"
+    SHA1
+    7376042523b6a229bc697b8099c2af369d1a84c6)
+
 if(MINGW)
   hunter_pick_scheme(DEFAULT url_sha1_openssl)
 elseif(WIN32)
