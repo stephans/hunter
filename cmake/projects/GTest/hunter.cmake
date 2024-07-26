@@ -315,6 +315,17 @@ hunter_add_version(
     2b28c2a3a30d86b1759543ef61fac3c4d69f8c4c
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    GTest
+    VERSION
+    "1.15.0"
+    URL
+    "https://github.com/google/googletest/releases/download/v1.15.0/googletest-1.15.0.tar.gz"
+    SHA1
+    282808d544e2da6116b40772f75c438ec6dab181
+)
+
 if(HUNTER_GTest_VERSION VERSION_LESS 1.8.0 OR HUNTER_GTest_VERSION VERSION_GREATER_EQUAL 1.11.0)
   set(_gtest_license "LICENSE")
 else()
