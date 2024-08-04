@@ -205,6 +205,16 @@ hunter_add_version(
     40e378d024928efa190e3fd59f66dc6510f79ea6
 )
 
+hunter_add_version(
+  PACKAGE_NAME
+  Protobuf
+  VERSION
+  "27.3-p0"
+  URL
+  "https://github.com/ambroff/protobuf/archive/refs/heads/v27.3-p0.tar.gz"
+  SHA1
+  7595f3457f332cc3b362d4aa65a3403761fde4fc
+)
 
 string(
     COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "WindowsStore" _hunter_windows_store
@@ -238,6 +248,7 @@ else()
       Protobuf
       CMAKE_ARGS
         protobuf_BUILD_TESTS=OFF
+        protobuf_ABSL_PROVIDER=package
   )
 endif()
 
