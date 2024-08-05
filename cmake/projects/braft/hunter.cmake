@@ -59,7 +59,14 @@ hunter_add_version(
   VERSION 2023.12.12.0
   URL "https://github.com/stephans/braft/archive/refs/tags/2023.12.12.0.zip"
   SHA1 308133bf3112cc157e9c104c9ae781a44a412ac5
- )
+  )
+
+hunter_add_version(
+  PACKAGE_NAME braft
+  VERSION 2023.12.12.1
+  URL "https://github.com/ambroff/braft/archive/refs/heads/2023.12.12.1.tar.gz"
+  SHA1 "d164a4f738a473b01f4a6fc2968e2c41217ec40c"
+  )
 
 hunter_cmake_args(
   braft
