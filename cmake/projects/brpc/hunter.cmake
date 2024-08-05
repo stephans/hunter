@@ -96,6 +96,13 @@ hunter_add_version(
   SHA1 "a7aff49ad7d5147865614995b3bd5d1cb86bb6a1"
 )
 
+hunter_add_version(
+  PACKAGE_NAME brpc
+  VERSION "1.10.0-p1"
+  URL "https://github.com/ambroff/brpc/archive/refs/heads/1.10.0-p1.tar.gz"
+  SHA1 "6beca149b72b4c4763e220c4e860855499f6c3f4"
+)
+
 hunter_cmake_args(
   brpc
   CMAKE_ARGS
