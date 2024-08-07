@@ -203,7 +203,12 @@ hunter_add_version(
     "https://github.com/stephans/cpp-pm-protobuf/archive/refs/tags/3.19.4-p1.tar.gz"
     SHA1
     40e378d024928efa190e3fd59f66dc6510f79ea6
-)
+  )
+
+hunter_add_version(PACKAGE_NAME Protobuf
+    VERSION "26.1-p0"
+    URL "https://github.com/stephans/cpp-pm-protobuf/archive/refs/heads/v26.1-hunter.tar.gz"
+    SHA1 438776c117b0da986a4ee6610c6f74c34dfdaeb7)
 
 hunter_add_version(
   PACKAGE_NAME
