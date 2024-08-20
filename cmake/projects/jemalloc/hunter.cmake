@@ -17,6 +17,14 @@ hunter_add_version(
   SHA1 3e4781e0c8c0033a0da5f93a204c172337c3353b
 )
 
+hunter_add_version(
+  PACKAGE_NAME jemalloc
+  VERSION "5.4.0-dev"
+  URL "https://github.com/jemalloc/jemalloc/archive/refs/heads/dev.zip"
+  SHA1 d6906423ffc16b26208729d342bafa1dea12dd39
+)
+
+
 hunter_configuration_types(jemalloc CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autogen_autotools)
 hunter_download(PACKAGE_NAME jemalloc)
