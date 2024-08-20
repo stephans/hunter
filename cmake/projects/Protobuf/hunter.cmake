@@ -205,10 +205,16 @@ hunter_add_version(
     40e378d024928efa190e3fd59f66dc6510f79ea6
   )
 
-hunter_add_version(PACKAGE_NAME Protobuf
-    VERSION "26.1-p0"
-    URL "https://github.com/stephans/cpp-pm-protobuf/archive/refs/heads/v26.1-hunter.tar.gz"
-    SHA1 438776c117b0da986a4ee6610c6f74c34dfdaeb7)
+hunter_add_version(
+  PACKAGE_NAME
+  Protobuf
+  VERSION
+  "26.1-p0"
+  URL
+  "https://github.com/stephans/cpp-pm-protobuf/archive/refs/tags/v26.1-p0-hunter.tar.gz"
+  SHA1
+  95a0aa5cf7bafc933760727fb921f92fda82a89e
+)
 
 hunter_add_version(
   PACKAGE_NAME
@@ -220,6 +226,7 @@ hunter_add_version(
   SHA1
   7595f3457f332cc3b362d4aa65a3403761fde4fc
 )
+
 
 string(
     COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "WindowsStore" _hunter_windows_store
