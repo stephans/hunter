@@ -18,5 +18,5 @@ hunter_add_version(
 )
 
 hunter_configuration_types(jemalloc CONFIGURATION_TYPES Release)
-hunter_pick_scheme(DEFAULT url_sha1_autotools)
+hunter_pick_scheme(DEFAULT url_sha1_autogen_autotools)
 hunter_download(PACKAGE_NAME jemalloc)
